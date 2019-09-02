@@ -1,0 +1,14 @@
+{
+	"name": "ts-sandbox",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.ts",
+	"scripts": {
+		"start": "ts-node index.ts"
+	},
+	"license": "ISC",
+	"dependencies": {
+		"ts-node": "^8.3.0",
+		"typescript": "^3.6.2"
+	}
+}
