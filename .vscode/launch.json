@@ -4,13 +4,18 @@
 		{
 			"type": "node",
 			"request": "launch",
-			"name": "Run index.ts",
+			"name": "Debug index.ts",
 			"runtimeArgs": [
 				"-r",
 				"ts-node/register"
 			],
 			"args": [
 				"${workspaceFolder}/index.ts"
+			],
+			"skipFiles": [
+				"${workspaceFolder}/node_modules/**",
+				"<node_internals>/**",
+				"**/*.min.*"
 			]
 		}
 	]
